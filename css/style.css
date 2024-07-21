@@ -148,8 +148,8 @@ body {
 .about__image {
   flex: 0 0 30%;
   align-items: center;
-  min-width: 300px;
-  height: 300px;
+  min-width: 400px;
+  height: 400px;
   margin-right: 30px;
   background-image: url('../img/about/photo.jpg');
   background-position: center;
