@@ -8,6 +8,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   background-color: #e6dada;
+  /*background: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;*/
 }
 
 /*------------------*/
@@ -387,6 +390,7 @@ body {
 }
 
 .contacts__text {
+  text-align: center;
   font-size: 26px;
 }
 .contacts__text:not(:last-child) {
