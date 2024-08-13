@@ -46,6 +46,12 @@
 }
 
 @media (max-width: 768px) {
+  .header__container {
+    justify-content: center;
+  }
+  .menu__list {
+    row-gap: 20px;
+  }
   .main__title {
     font-size: 62px;
   }
