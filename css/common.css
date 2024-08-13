@@ -10,25 +10,29 @@
   line-height: 1.5; /* 27/18 */
   /*background-color: #ff9903;*/
   border-radius: 24px;
-  color: #eeeeee;
+  color: #fff;
   transition: background-color 0.3s ease 0s;
 }
 .button-dark {
-  background-color: rgba(57, 62, 70, 0.75);
-  transition: background-color 0.3s ease 0s;
+  border: 2px solid #faec1e;
+  color: #faec1e;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
 }
 .button:hover {
-  background-color: rgba(57, 62, 70, 0.75);
+  box-shadow: rgba(253, 252, 180, 0.97) 0px 10px 30px -15px;
 }
 .active,
 .button-dark:hover {
-  background-color: #ff9903;
+  background-color: #faec1e;
+  /*color: #fff;*/
+  color: #0c0c0e;
 }
 
 .button-vizit {
   align-self: center;
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 

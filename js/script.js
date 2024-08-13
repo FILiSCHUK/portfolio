@@ -48,7 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const btnPosts = document.getElementById("btn-posts");
   const btnSites = document.getElementById("btn-sites");
   const btnEmail = document.getElementById("btn-email"); 
-  const btnEng = document.getElementById("btn-eng"); 
+  const btnEng = document.getElementById("btn-eng");
+  const btnVideo = document.getElementById("btn-video"); 
   const titleWorks = document.querySelector(".items-works__title");
   const cards = document.querySelectorAll(".items-works__box");
   const article = document.querySelector(".items-works__articles");
@@ -99,6 +100,16 @@ document.addEventListener("DOMContentLoaded", function () {
       if (card.getAttribute("data-category") === "eng") {
         card.style.display = "flex";
         /*titleWorks.innerHTML = "Email-рассылки"*/
+      } else {
+          card.style.display = "none";
+      }
+    });
+  });
+
+  btnVideo.addEventListener("click", function () {
+    cards.forEach(card => {
+      if (card.getAttribute("data-category") === "video") {
+        card.style.display = "flex";
       } else {
           card.style.display = "none";
       }
